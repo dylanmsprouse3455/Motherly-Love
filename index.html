@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Support a Mother in Need | Motherly Love</title>
+<title>Donate | Motherly Love</title>
 
 <style>
 body{
@@ -11,56 +11,41 @@ body{
   font-family:-apple-system,BlinkMacSystemFont,system-ui,Arial;
   background:#fff7f9;
   color:#222;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  min-height:100vh;
   text-align:center;
 }
 
-.container{
-  background:white;
-  padding:40px 25px;
-  border-radius:16px;
-  max-width:520px;
-  box-shadow:0 15px 40px rgba(0,0,0,.08);
+.wrapper{
+  max-width:700px;
+  margin:auto;
+  padding:40px 20px;
 }
 
 h1{
+  font-size:30px;
   margin-bottom:10px;
-  font-size:28px;
 }
 
 p{
   color:#555;
-  line-height:1.5;
+  line-height:1.6;
 }
 
 .highlight{
   font-weight:600;
   color:#b83b62;
+  margin:15px 0;
 }
 
-button{
-  margin-top:25px;
-  padding:16px 24px;
-  font-size:18px;
-  font-weight:600;
-  border:none;
-  border-radius:12px;
-  background:#b83b62;
-  color:white;
-  cursor:pointer;
-  width:100%;
-  max-width:300px;
-}
-
-button:hover{
-  opacity:.9;
+.form-box{
+  margin-top:30px;
+  background:white;
+  padding:25px;
+  border-radius:16px;
+  box-shadow:0 15px 40px rgba(0,0,0,.08);
 }
 
 .small{
-  margin-top:18px;
+  margin-top:25px;
   font-size:13px;
   color:#777;
 }
@@ -69,12 +54,13 @@ button:hover{
 
 <body>
 
-<div class="container">
+<div class="wrapper">
+
   <h1>Support a Mother in Need</h1>
 
   <p>
-    Motherly Love is raising funds to support mothers navigating
-    pregnancy, postpartum, adoption, and personal hardship.
+    Motherly Love supports mothers navigating pregnancy,
+    postpartum, adoption, and personal hardship.
   </p>
 
   <p class="highlight">
@@ -82,17 +68,23 @@ button:hover{
   </p>
 
   <p>
-    This fundraiser is in partnership with a film highlighting
-    the struggles mothers face and the strength it takes to keep going.
+    This fundraiser is in partnership with a film
+    highlighting the real struggles mothers face.
   </p>
 
-  <a href="https://motherlylove23.wixsite.com/website/donation" target="_blank">
-    <button>Donate Now</button>
-  </a>
+  <div class="form-box">
+
+    <!-- Cognito Form Embed -->
+    <script src="https://www.cognitoforms.com/f/seamless.js"
+            data-key="rEO9lxWpmkSXcrrl2U7yaw"
+            data-form="6"></script>
+
+  </div>
 
   <div class="small">
     Motherly Love Non-Profit • East Tennessee
   </div>
+
 </div>
 
 </body>
